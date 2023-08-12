@@ -9,7 +9,7 @@ Firefly-III-API-Client==1.5.6
 flake8==5.0.4
 flake8-polyfill==1.0.2
 gitdb==4.0.10
-GitPython==3.1.30
+GitPython==3.1.32
 grapheme==0.6.0
 isort==5.11.4
 lazy-object-proxy==1.9.0
