@@ -15,6 +15,7 @@ Python script to import a [Bluecoins](https://play.google.com/store/apps/details
 - Set up all needed currencies first inside Firefly III, transactions with unknown currency will throw an error when trying to import them.
 - It's best to set up rules inside Firefly III first to modify the transactions according to your needs.
   - This is also the way to go to assign actual source/destination accounts (instead of `(Cash)`).
+- Set `DESC_AS_ACC` in `config.py` to `True` to use the "Description" field as the opposing account name (expenses account created if not already present)
 - The initial bank statements are not imported. You can set them manually in Firefly III after the import for each account.
 - Firefly III has some limitations that Bluecoins has not:
   - Split transaction always needs to have the same source account.
